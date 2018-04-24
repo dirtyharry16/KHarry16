@@ -32,3 +32,10 @@ font-style:"Arial";
 h1{
 color:#011138;
 }
+
+footer{
+width:1200px;
+margin:0px;
+min-height:100px;
+background-color:#021138;
+}
