@@ -1,44 +1,35 @@
 .top {
-	width:1200px;
-	margin:0px;
+     width:1200px;
+     margin:0px;
 }
-
-.mid {
-    width:800px;
-	text-align:center;
-	margin:0px;
-
+ .mid {
+     width:800px;
+     text-align:center;
+     margin:0px;
 }
-
-body{
-background-image: url("stripe.png");	
-	
+ body{
+     background-image: url("stripe.png");
 }
-
-.box{
-min-height:100px;
-width:1200px;
-vertical-align:middle;
-background-color:#FFF;
-margin: auto 0;
-
+ .box{
+     min-height:100px;
+     width:1200px;
+     vertical-align:middle;
+     background-color:#FFF;
+     margin: auto 0;
 }
-
-p{
-font-size:14px;
-font-style:"Arial";
+ p{
+     font-size:14px;
+     font-style:"Arial";
 }
-
-h1{
-color:#011138;
+ h1{
+     color:#011138;
 }
-
-footer{
-width:1200px;
-margin:auto 0;
-min-height:100px;
-background-color:#021138;
+ footer{
+     width:1200px;
+     margin:auto 0;
+     min-height:100px;
+     background-color:#021138;
 }
- /* The min-height atrribute allows your div to expand as your page contents do. So if you delete text from your website, there will still be a 100px on the website acting as the body. */
- /* https://www.w3schools.com/CSSref/pr_dim_min-height.asp */
-/*Kevin Harrigan */
+/* The min-height atrribute allows your div to expand as your page contents do. So if you delete text from your website, there will still be a 100px on the website acting as the body. */
+/* https://www.w3schools.com/CSSref/pr_dim_min-height.asp */
+/* Kevin Harrigan */
