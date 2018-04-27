@@ -9,18 +9,19 @@
 }
  body{
      background-image: url("stripe.png");
-     margin: auto;
+ 
 }
  .box{
      min-height:100px;
      width:1200px;
      vertical-align:middle;
      background-color:#FFF;
-     text-align:center;
+    
 }
  p{
      font-size:14px;
      font-family:"Arial";
+      text-align:center
 }
  h1{
      color:#011138;
