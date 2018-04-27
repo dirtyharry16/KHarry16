@@ -9,14 +9,16 @@
 }
  body{
      background-image: url("stripe.png");
-     margin-left:400px;
-     margin-right:400px;
+     margin-left: 400px;
+     margin-right: 400px;
  
 }
  .box{
      min-height:100px;
      width:1200px;
      background-color:#FFF;
+     margin-left: 400px;
+     margin-right: 400px;
     
 }
  p{
