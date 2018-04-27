@@ -10,8 +10,8 @@
 
 body {
      background-image: url("stripe.png");
-     margin-left: 200px;
-     margin-right: 200px;
+     margin-left: 400px;
+     margin-right: 400px;
 
 }
  
@@ -19,8 +19,6 @@ body {
      min-height:100px;
      width:1200px;
      background-color:#FFF;
-     margin-left: 400px;
-     margin-right: 400px;
     
 }
 p {
