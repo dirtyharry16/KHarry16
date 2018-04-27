@@ -9,6 +9,7 @@
 }
  body{
      background-image: url("stripe.png");
+     padding-left:200px;
  
 }
  .box{
@@ -16,7 +17,6 @@
      width:1200px;
      vertical-align:middle;
      background-color:#FFF;
-     padding-left:400px;
     
 }
  p{
