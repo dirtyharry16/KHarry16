@@ -9,14 +9,12 @@
 }
  body{
      background-image: url("stripe.png");
-     width:1200px;
-     margin: 0 auto;
  
 }
  .box{
      min-height:100px;
      width:1200px;
-     vertical-align:middle;
+     margin: 0 auto;
      background-color:#FFF;
     
 }
