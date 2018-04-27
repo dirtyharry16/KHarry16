@@ -7,13 +7,12 @@
      text-align:center;
      margin:0px;
 }
- body{
+ body {
      background-image: url("stripe.png");
      margin-left: 400px;
      margin-right: 400px;
- 
 }
- .box{
+ .box {
      min-height:100px;
      width:1200px;
      background-color:#FFF;
@@ -21,12 +20,12 @@
      margin-right: 400px;
     
 }
- p{
+ p {
      font-size:14px;
      font-family:"Arial";
       text-align: center;
 }
- h1{
+ h1 {
      color:#011138;
      text-align: center;
 }
