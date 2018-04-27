@@ -9,7 +9,7 @@
 }
  body{
      background-image: url("stripe.png");
-     vertical-align: middle;
+     margin: auto;
 }
  .box{
      min-height:100px;
