@@ -39,3 +39,4 @@ margin:auto 0;
 min-height:100px;
 background-color:#021138;
 }
+ /* The min-height atrribute allows your div to expand as your page contents do. So if you delete text from your website, there will still be a 100px on the website acting as the body. */
