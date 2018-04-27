@@ -5,7 +5,7 @@
  .mid {
      width:800px;
      text-align:center;
-     margin:0px;
+     margin:auto;
 }
  body{
      background-image: url("stripe.png");
