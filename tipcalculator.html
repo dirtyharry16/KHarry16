@@ -6,47 +6,48 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Stylesheet.css">
     <center>
-<img id="Image-Maps-Com-image-maps-2018-04-19-001736" src="http://www.image-maps.com/m/private/0/dh4bi6bqect492k0fe1ugvl4m7_sample2-copy.jpg" border="0" width="1200" height="450" orgWidth="1200" orgHeight="450" usemap="#image-maps-2018-04-19-001736"
-alt="Home2"/><map name="image-maps-2018-04-19-001736" id="ImageMapsCom-image-maps-2018-04-19-001736">
+        <img id="Image-Maps-Com-image-maps-2018-04-19-001736" src="http://www.image-maps.com/m/private/0/dh4bi6bqect492k0fe1ugvl4m7_sample2-copy.jpg" border="0" width="1200" height="450" orgWidth="1200" orgHeight="450" usemap="#image-maps-2018-04-19-001736" alt="Home2"
+        /><map name="image-maps-2018-04-19-001736" id="ImageMapsCom-image-maps-2018-04-19-001736">
 <area  alt="Home" title="home" href="index.html" shape="rect" coords="17,378,220,445" style="outline:none;" target="_self"     />
 <area  alt="About Me" title="aboutme" href="aboutme.html" shape="rect" coords="322,380,646,437" style="outline:none;" target="_self"     />
 <area  alt="Tip Calculator" title="tipcalculator" href="tipcalculator.html" shape="rect" coords="746,378,1188,449" style="outline:none;" target="_self"     />
 <area  alt="Home2" title="" href="index.html" shape="rect" coords="0,0,1199,369" style="outline:none;" target="_self"     />
 <area shape="rect" coords="1198,448,1200,450" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />
 </map>
-        </center>
-            
+    </center>
 </head>
 
 <body>
     <div class="box">
         <p class="mid">
             <br>
-              <h1>Total after Tip Calculator</h1>
-                      <br>
-    <center>       
-    <input id="mP">
-            <button type="button" onclick="myFunction()">Submit</button>
-            <p id="out"></p>
-            <script>
-                function myFunction() {
-                var mealPrice = document.getElementById("mP").value;
-                var total;
-                var tax=parseInt(mealPrice)*.06;
-                var tip=parseInt(mealPrice)*.2;
-                total = parseInt(mealPrice) + tax + tip;
-                document.getElementById("out").innerHTML = total;
-                }
-            </script>
-    </center>
+            <h1>Total after Tip Calculator</h1>
+            <br>
+            <center>
+                <input id="mP">
+                <button type="button" onclick="myFunction()">Submit</button>
+                <p id="out"></p>
+                <script>
+                    function myFunction() {
+                    var mealPrice = document.getElementById("mP").value;
+                    var total;
+                    var tax=parseInt(mealPrice)*.06;
+                    var tip=parseInt(mealPrice)*.2;
+                    total = parseInt(mealPrice) + tax + tip;
+                    document.getElementById("out").innerHTML = total;
+                    }
+                </script>
+            </center>
             <br>
             <br>
-    <!--http://www.developphp.com/video/JavaScript/Tip-Calculator-Application-Form-Programming-Tutorial--> 
-    <!-- This was the resource I used to learn how to utilize JavaScript within my portfolio. I used this as a guide and used my own variables -->
+            <!--http://www.developphp.com/video/JavaScript/Tip-Calculator-Application-Form-Programming-Tutorial-->
+            <!-- This was the resource I used to learn how to utilize JavaScript within my portfolio. I used this as a guide and used my own variables -->
     </div>
     <footer>
-        <center><a href="https://www.linkedin.com/in/kevin-harrigan-jr/"><img src="linked.png" alt="LinkedIn"/></a></center></footer>
-<!-- Kevin Harrigan -->
+        <center><a href="https://www.linkedin.com/in/kevin-harrigan-jr/"><img src="linked.png" alt="LinkedIn"/></a></center>
+    </footer>
+    <!-- Kevin Harrigan -->
     <!--This page was used to display my knowledge of JavaScript. It calculates the total bill with tip after you enter the total into the textbox -->
-    </body>
+</body>
+
 </html>
